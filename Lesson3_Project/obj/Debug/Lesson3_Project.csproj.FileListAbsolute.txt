@@ -1,0 +1,5 @@
+C:\Users\micha\Documents\GEOG 489\Lesson_3\Lesson3_Project\Lesson3_Project\bin\Debug\Lesson3_Project.dll
+C:\Users\micha\Documents\GEOG 489\Lesson_3\Lesson3_Project\Lesson3_Project\bin\Debug\Lesson3_Project.pdb
+C:\Users\micha\Documents\GEOG 489\Lesson_3\Lesson3_Project\Lesson3_Project\obj\Debug\Lesson3_Project.dll
+C:\Users\micha\Documents\GEOG 489\Lesson_3\Lesson3_Project\Lesson3_Project\obj\Debug\Lesson3_Project.pdb
+C:\Users\micha\Documents\GEOG 489\Lesson_3\Lesson3_Project\Lesson3_Project\bin\Debug\Lesson3_Project.esriAddIn

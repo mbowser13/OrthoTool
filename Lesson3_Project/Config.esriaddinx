@@ -1,0 +1,30 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Lesson3_Project</Name>
+  <AddInID>{554f42a3-1c7e-4978-a79f-f7313f8a7d75}</AddInID>
+  <Description>Lesson 3 Project</Description>
+  <Version>1.0</Version>
+  <Image>Images\Lesson3_Project.png</Image>
+  <Author>Michael Bowser</Author>
+  <Company>GEOG489</Company>
+  <Date>2/14/2017</Date>
+  <Targets>
+    <Target name="Desktop" version="10.4" />
+  </Targets>
+  <AddIn language="CLR" library="Lesson3_Project.dll" namespace="Lesson3_Project">
+    <ArcMap>
+      <Commands>
+        <Tool id="GEOG489_Lesson3_Project_orthoTool" class="orthoTool" message="Click location on map to add orthophoto" caption="Orthophoto Tool" tip="Orthophoto Tool" category="GEOG489_Lesson3_MMB" image="Images\orthoTool.png" onDemand="false" />
+        <Tool id="GEOG489_Lesson3_Project_streetTool_1" class="streetTool" message="Click location on map to add streets" caption="Street Tool" tip="Street Tool" category="GEOG489_Lesson3_MMB" image="Images\streetTool.png" onDemand="false" />
+        <Tool id="GEOG489_Lesson3_Project_orthoAllTilesTool" class="orthoAllTilesTool" message="Adds all overlapping index tiles" caption="My Tool" tip="Click location" category="GEOG489_Lesson3_MMB" image="Images\orthoAllTilesTool.png" onDemand="false" />
+      </Commands>
+      <Toolbars>
+        <Toolbar id="GEOG489_Lesson3_Project_Lesson_3_Toolbar" caption="Lesson 3 Toolbar" showInitially="true">
+          <Items>
+            <Tool refID="GEOG489_Lesson3_Project_orthoTool" />
+            <Tool refID="GEOG489_Lesson3_Project_streetTool_1" separator="true" />
+          </Items>
+        </Toolbar>
+      </Toolbars>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
